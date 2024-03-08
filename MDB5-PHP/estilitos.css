@@ -1,0 +1,21 @@
+/* head.php */
+.mask{
+    background: linear-gradient(
+          45deg,
+          rgba(29, 236, 197, 0.7),
+          rgba(91, 14, 214, 0.7) 100%
+        );
+}
+
+/* hora.php */
+#intro {
+    height: 600px;
+    /* Margin to fix overlapping fixed navbar */
+    margin-top: 0;
+  }
+  @media (max-width: 991px) {
+          #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 45px;
+      }
+  }
